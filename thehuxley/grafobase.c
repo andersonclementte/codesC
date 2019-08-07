@@ -6,6 +6,11 @@ typedef struct node{
     struct node* next;
 }Node;
 
+typedef struct queue{
+    Node* front;
+    Node* rear;
+}Queue;
+
 typedef struct graph{
     Node* vertice[100];
     short visited[100];
